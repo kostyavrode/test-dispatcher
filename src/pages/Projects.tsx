@@ -14,13 +14,12 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'ToDo',
-      description: 'Простой трекер задач, бекэнд полностью на C#. Дает возможность выставлять задачам приоритет и дату их выполнения. Существует мобильная версия и веб-версия.',
-      technologies: ['C#', '.NET Core', 'Entity Framework', 'PostgreSQL'],
-      image: '/todo.PNG',
-      githubLink: 'https://github.com/kostyavrode/ToDoService',
-      webLink: 'https://todo-kostya.online/',
-      mobileLink: 'https://www.rustore.ru/catalog/app/com.kostya.todo',
+      title: 'Audio Kostya',
+      description: '[В разработке] Аналог Discord. Возможность создавать свои группы с чатом и аудиоканалами. Работает на Janus WebRTC.',
+      technologies: ['.NET Core', 'Entity Framework', 'Fluent Validation', 'RabbitMQ', 'MicroService', 'Postgres', 'Docker'],
+      image: '/taskflow.png',
+      githubLink: 'https://github.com/kostyavrode/audio-project',
+      webLink: 'https://audio-kostya.online/login.html',
       featured: true
     },
     {
@@ -35,11 +34,13 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: 'Task Flow',
-      description: '[В разработке] Микросервисная платформа для управления асинхронными бизнес-процессами с real-time уведомлениями. Система включает три сервиса: Task Management API для создания задач, Task Execution Worker для их выполнения и Notification Service для уведомлений.',
-      technologies: ['.NET', 'PostgreSQL', 'RabbitMQ', 'SignalR', 'Entity Framework', 'MassTransit'],
-      image: '/taskflow.png',
-      githubLink: 'https://github.com/kostyavrode/TaskFlow',
+      title: 'ToDo',
+      description: 'Простой трекер задач, бекэнд полностью на C#. Дает возможность выставлять задачам приоритет и дату их выполнения. Существует мобильная версия и веб-версия.',
+      technologies: ['C#', '.NET Core', 'Entity Framework', 'PostgreSQL'],
+      image: '/todo.PNG',
+      githubLink: 'https://github.com/kostyavrode/ToDoService',
+      webLink: 'https://todo-kostya.online/',
+      mobileLink: 'https://www.rustore.ru/catalog/app/com.kostya.todo',
       featured: false
     },
     {
