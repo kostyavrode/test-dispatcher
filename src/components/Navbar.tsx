@@ -29,14 +29,6 @@ const Navbar = () => {
               Проекты
             </Link>
           </li>
-          <li>
-            <Link 
-              to="/about" 
-              className={`navbar-link ${isActive('/about') ? 'active' : ''}`}
-            >
-              О себе
-            </Link>
-          </li>
         </ul>
       </div>
     </nav>
