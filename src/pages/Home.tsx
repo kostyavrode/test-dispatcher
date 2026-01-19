@@ -84,6 +84,7 @@ const Home = () => {
                     <li>Разработка backend на Django</li>
                     <li>Создание AR-приложений на Unity/C#</li>
                     <li>Победитель конкурса студенческих стартапов</li>
+                    <li>Реализация гранта размером 1 миллион рублей</li>
                   </ul>
                 </div>
                 <div className="experience-item">
@@ -229,10 +230,6 @@ const Home = () => {
                 <li className="achievement-item">
                   <span className="achievement-icon">🚀</span>
                   <span>Реализация собственного проекта с backend, AR-приложением и инфраструктурой</span>
-                </li>
-                <li className="achievement-item">
-                  <span className="achievement-icon">⚡</span>
-                  <span>Разработал программу автоматизации сбора логов, уменьшившую прецеденты потери данных</span>
                 </li>
                 <li className="achievement-item">
                   <span className="achievement-icon">💼</span>
